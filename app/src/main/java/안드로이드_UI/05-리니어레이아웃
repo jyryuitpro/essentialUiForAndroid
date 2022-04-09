@@ -5,7 +5,7 @@
 
 - 속성
     - orientation : 자식의 뷰의 방향을 설정
-    - weight : 자식이 자치가 크기의 비율을 설정
+    - weight : 자식이 자치가 크기의 비율을 설정 (weight의 합이 분모가 되, 각각의 자식들의 weight가 분자가 된다)
 
 크기를 설정하는 특수한 키워드
 - match_parent

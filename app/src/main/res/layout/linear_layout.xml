@@ -2,23 +2,26 @@
 <androidx.appcompat.widget.LinearLayoutCompat
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/design_default_color_error">
 
     <TextView
         android:layout_width="100dp"
         android:layout_height="50dp"
+        android:layout_weight="1"
         android:background="@color/design_default_color_on_secondary" />
 
     <TextView
         android:layout_width="100dp"
         android:layout_height="50dp"
-        android:background="@color/design_default_color_on_secondary" />
+        android:layout_weight="1"
+        android:background="@color/cardview_light_background" />
 
     <TextView
         android:layout_width="100dp"
         android:layout_height="50dp"
-        android:background="@color/design_default_color_on_secondary" />
+        android:layout_weight="1"
+        android:background="@color/purple_700" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
