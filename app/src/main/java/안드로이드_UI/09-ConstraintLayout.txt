@@ -14,3 +14,4 @@ ConstraintLayout
             - 아이디로 설정된 뷰 들
             - parent
                 - B Left_toLeftOf parent (B의 왼쪽을 parent의 왼쪽에 맞춰라)
+    - 예시) layout_constraint(뷰)Left_toLeftOf(뷰)
