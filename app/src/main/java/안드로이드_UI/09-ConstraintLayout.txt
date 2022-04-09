@@ -39,3 +39,17 @@ ConstraintLayout
 - layout_constraintCircle : 기준을 정한다
 - layout_constraintCircleRadius : 두 중심 간의 거리
 - layout_constraintCircleAngle : 각도
+
+6> Chain 속성
+- Spread Chain (기본값)
+- Spread Inside
+- Packed
+
+[한국, 미국]
+Right == End
+Left == Start
+
+언어의 특징
+- LTR(Left to Right) : 글자를 적는 방향이 왼쪽에서 오른쪽 -> Start = Left, End = Right
+- RTL(Right to left) : 글자를 적는 방향이 오른쪽에서 왼쪽 -> Start = Right End = Left
+
