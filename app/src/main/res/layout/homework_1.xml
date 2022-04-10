@@ -14,31 +14,49 @@
         app:layout_constraintBottom_toTopOf="@+id/sandwitch">
 
         <ImageView
-            android:layout_width="236dp"
+            android:layout_width="260dp"
             android:layout_height="38dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginBottom="115dp"
             android:src="@drawable/page_1" />
 
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:layout_width="230dp"
+            android:layout_width="250dp"
             android:layout_height="40dp"
-            android:gravity="center"
+            android:gravity="center_vertical"
             android:background="@drawable/blue_background"
+            android:layout_marginBottom="4dp"
+            android:paddingLeft="22dp"
             android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="12dp"
-                android:layout_height="21dp"
-                android:src="@drawable/logo_fb2" />
-
-            <TextView
-                android:layout_width="1dp"
-                android:layout_height="24dp"
-                android:layout_marginLeft="17dp"
+            
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
                 android:layout_marginRight="14dp"
-                android:background="#FFFFFF" />
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="21dp"
+                    android:src="@drawable/logo_fb2" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="24dp"
+                    android:background="#FFFFFF" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:text="페이스북 계정으로 로그인"
                 android:textSize="14dp"
@@ -48,31 +66,69 @@
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:layout_width="230dp"
+            android:layout_width="250dp"
             android:layout_height="40dp"
-            android:gravity="center"
+            android:gravity="center_vertical"
             android:background="@drawable/yellow_background"
+            android:layout_marginBottom="16dp"
+            android:paddingLeft="22dp"
             android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="23dp"
-                android:layout_height="21dp"
-                android:src="@drawable/logo_kt" />
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="14dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="23dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/logo_kt" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="24dp"
+                    android:background="#FFFFFF" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
 
             <TextView
-                android:layout_width="1dp"
-                android:layout_height="24dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginRight="21dp"
-                android:background="#FFFFFF" />
-
-            <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:text="카카오 계정으로 로그인"
                 android:textSize="14dp"
                 android:textStyle="bold"
                 android:textColor="#FFFFFF" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/arrows"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="회원가입 건너뛰고 레시피 확인하기"
+                android:textColor="#9B9B9B"
+                android:textSize="14dp" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
