@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">essentialUiForAndroid</string>
+    <string name="hello">안녕하세요</string>
 </resources>
