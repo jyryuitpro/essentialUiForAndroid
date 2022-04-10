@@ -6,26 +6,24 @@
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
+        android:layout_marginBottom="43dp"
         android:layout_height="0dp"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         app:layout_constraintVertical_weight="1"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/sandwitch">
 
         <ImageView
             android:layout_width="260dp"
             android:layout_height="38dp"
-            android:layout_marginTop="190dp"
-            android:layout_marginBottom="115dp"
             android:src="@drawable/page_1" />
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="250dp"
             android:layout_height="40dp"
+            android:layout_marginTop="115dp"
             android:gravity="center_vertical"
             android:background="@drawable/blue_background"
-            android:layout_marginBottom="4dp"
             android:paddingLeft="22dp"
             android:orientation="horizontal">
             
@@ -68,9 +66,9 @@
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="250dp"
             android:layout_height="40dp"
+            android:layout_marginTop="4dp"
             android:gravity="center_vertical"
             android:background="@drawable/yellow_background"
-            android:layout_marginBottom="16dp"
             android:paddingLeft="22dp"
             android:orientation="horizontal">
 
@@ -114,6 +112,7 @@
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:orientation="horizontal"
             android:gravity="center">
 
